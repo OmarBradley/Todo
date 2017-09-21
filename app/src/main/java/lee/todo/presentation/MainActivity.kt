@@ -34,8 +34,6 @@ class MainActivity : BaseActivity() {
         }, {
             Toast.makeText(this, "예기치 못한 오류", Toast.LENGTH_SHORT)
         })
-
-
     }
 
     private fun initRecyclerView() {
