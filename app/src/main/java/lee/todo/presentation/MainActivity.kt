@@ -12,11 +12,11 @@ import org.jetbrains.anko.onClick
 
 class MainActivity : BaseActivity() {
 
-    val viewModel: MainViewModel by lazy {
+    private val viewModel: MainViewModel by lazy {
         ViewModelProviders.of(this).get(MainViewModel::class.java)
     }
 
-    val adapter: TaskAdapter by lazy {
+    private val adapter: TaskAdapter by lazy {
         TaskAdapter()
     }
 
